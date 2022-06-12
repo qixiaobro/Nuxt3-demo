@@ -6,6 +6,11 @@ const name = route.params.name
 
 const restaurant = restaurants.find((r) => r.name === name);
 
+useHead({
+  title: `${restaurant.name} - Restaurantly`,
+  description: `${restaurant.name} is ranked ${restaurant.rank} in the top 50 restaurants in the world.`,
+})
+
 </script>
 <template>
   <div>
