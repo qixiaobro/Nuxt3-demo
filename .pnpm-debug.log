@@ -1,0 +1,14 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 error pnpm": {
+    "code": "ERR_PNPM_NO_PKG_MANIFEST",
+    "err": {
+      "name": "pnpm",
+      "message": "No package.json found in /Users/uncode/self/nuxt",
+      "code": "ERR_PNPM_NO_PKG_MANIFEST",
+      "stack": "pnpm: No package.json found in /Users/uncode/self/nuxt\n    at handler (/Users/uncode/pnpm-global/5/node_modules/.pnpm/pnpm@7.0.0/node_modules/pnpm/dist/pnpm.cjs:120573:17)\n    at async /Users/uncode/pnpm-global/5/node_modules/.pnpm/pnpm@7.0.0/node_modules/pnpm/dist/pnpm.cjs:175391:21\n    at async run (/Users/uncode/pnpm-global/5/node_modules/.pnpm/pnpm@7.0.0/node_modules/pnpm/dist/pnpm.cjs:175365:34)\n    at async runPnpm (/Users/uncode/pnpm-global/5/node_modules/.pnpm/pnpm@7.0.0/node_modules/pnpm/dist/pnpm.cjs:175583:5)\n    at async /Users/uncode/pnpm-global/5/node_modules/.pnpm/pnpm@7.0.0/node_modules/pnpm/dist/pnpm.cjs:175575:7"
+    }
+  }
+}
